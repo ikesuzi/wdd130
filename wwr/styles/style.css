@@ -1,7 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .content {
     max-width: 1600px;
     margin: 0 auto;
@@ -28,7 +28,10 @@ height: 725px;
 }
 body{
     background-color: steelblue;
-    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: aqua;
@@ -41,6 +44,11 @@ nav a:hover{
     background-color: aquamarine;
     color: black;
     text-decoration: none;
+    font-family: roboto;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: brown;
@@ -48,15 +56,19 @@ nav a:hover{
 }
 .msg {
     background-color: azure;
+    line-height: 1.5em;
 }
 footer{
     background-color: black;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color: brown;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: roboto;
     font-size: 2em;
+    margin-top: 10px
 }
 h4{
     color: brown;
@@ -68,6 +80,8 @@ h4{
 .msg p{
     color: blue;
     margin: 50px auto;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer h3{
     color: white;
@@ -86,6 +100,7 @@ footer a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -97,4 +112,22 @@ footer h3 a:hover{
 h1 {
     margin: 50px 0;
     color: blue;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.social img {
+    padding-top: 15px;
+}
+.river-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }
