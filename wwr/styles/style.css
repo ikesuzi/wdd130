@@ -55,6 +55,7 @@ footer{
 }
 .home-title{
     color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h4{
     color: brown;
@@ -94,4 +95,5 @@ footer h3 a:hover{
 }
 h1 {
     margin: 50px 0;
+    color: blue;
 }
