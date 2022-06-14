@@ -78,7 +78,7 @@ body{
 header {
     background-color: aqua;
     display: grid;
-    grid-template-columns: 150x auto;
+    grid-template-columns: 150px auto;
 }
 nav a:hover{
     background-color: beige;
@@ -236,4 +236,23 @@ main section img {
         margin-top: 25px;
     }
 }
-            
+            /* This is for the subpage all styles should affect the subpage */
+    #rivers-img {
+        width: 100%;
+        border: 5px seagreen;
+    }
+    #rivers-msg {
+    font-family: roboto;
+    font-size: 2em;
+    margin-top: 10px;
+    text-align: center;
+    }
+    h4{
+        color: brown;
+        margin: 20px;
+    }
+    p{
+    text-align: justify;
+    }
+    
+    
