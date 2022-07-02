@@ -60,6 +60,14 @@ height: 300px;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #d9a3a6;
 }
+#temple:hover {
+    opacity: .6;
+    transform: scale(1.1);
+    }
+    #rebuke:hover {
+        opacity: .6;
+        transform: scale(1.1);
+        }
 #stones-img {
     width: 100%;
     height: 400px;
@@ -72,6 +80,14 @@ height: 300px;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #d9a3a6;
 }
+#bread:hover {
+    opacity: .6;
+    transform: scale(1.1);
+    }
+    #bread1:hover {
+        opacity: .6;
+        transform: scale(1.1);
+        }
 #stone-wire {
     width: 50%;
     height: 350px;
@@ -87,6 +103,10 @@ height: 300px;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #d9a3a6;
 }
+.christ-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+    }
 .home-img {
     width: 50%;
     height: 350px;
